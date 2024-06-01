@@ -21,7 +21,7 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 
-    <!-- Latest compiled JavaScript -->
+    <!-- Latest compiled JavaScript --> 
 </head>
 
 <body>
@@ -29,7 +29,10 @@
     </div>
     <div class="container-fluid">
         <div class="row justify-content-center">
-
+            <li>Go to the weather page and type in an address to figure out the weather for today and the following 4 days
+            </li>
+            <li>Go to the history page and type in a date, and it will show all of the searches made that day.</li>
+            <li>You can click on one and see the data that was sent to the user!</li>
             <div id="addydiv" class="col-4 addydiv">
                 <form id="ad" class="form-inline">
                     <div class="input-group">
@@ -48,7 +51,7 @@
         <div class="row justify-content-center">
             <div id="map" class="centere"></div>
             <script async
-                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqWduJBnMtEwHgbUqu61hFlZqIXFwHJ5s&callback=initMap">
+                src="https://maps.googleapis.com/maps/api/js?key=' + key + '&callback=initMap">
                 </script>
         </div>
         <div class="row">
